@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        background: black;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    #navbar {
+        height: 65px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        background: #2e2e2e;
+    }
+
+    #left {
+        flex: 1;
+        font-size: 22px;
+        font-weight: bold;
+        color: #6ab1ff;
+        letter-spacing: 1px;
+    }
+
+    .navBtn {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background: #444;
+        color: #ff8ad4;
+        border: 2px solid #ff8ad4;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 600;
+        transition: 0.25s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .navBtn:hover {
+        background: #ff8ad4;
+        color: black;
+        transform: scale(1.15);
+        box-shadow: 0 0 12px #ff8ad4;
+    }
+
+    #title {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 85px;
+        letter-spacing: 8px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 0 0 20px white;
+    }
+
+    #subtitle {
+        font-size: 22px;
+        margin-top: 10px;
+        letter-spacing: 3px;
+        opacity: 0.8;
+    }
+
+    #bottom {
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #startBtn {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background: white;
+        border: none;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        letter-spacing: 2px;
+        transition: 0.25s ease;
+        box-shadow: 0 0 25px white;
+        animation: pulse 2s infinite ease-in-out;
+        text-decoration: none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    #startBtn:hover {
+        transform: scale(1.15) translateY(-8px);
+        box-shadow: 0 0 45px white;
+    }
+
+    @keyframes pulse {
+        0% { box-shadow: 0 0 20px white; }
+        50% { box-shadow: 0 0 35px white; }
+        100% { box-shadow: 0 0 20px white; }
+    }
+
+</style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="left">PixelArt</div>
+        <a href="file:///C:/Users/User/Desktop/new.html">
+            <button class="navBtn">Home</button>
+        </a>
+
+       
+    </div>
+
+    <div id="title">
+        PIXEL ART
+        <div id="subtitle">just draw guys</div>
+    </div>
+
+    <div id="bottom">
+        <a id="startBtn" href="file:///C:/Users/User/Desktop/yess.html">START</a>
+    </div>
+
+</body>
+</html>
